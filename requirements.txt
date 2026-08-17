@@ -1,0 +1,14 @@
+# Web 界面
+streamlit
+
+# LangChain 核心
+langchain-core
+langchain-community
+langchain-chroma
+langchain-text-splitters
+
+# 向量数据库
+chromadb
+
+# 阿里云百炼（通义千问）SDK，供 DashScopeEmbeddings / ChatTongyi 使用
+dashscope

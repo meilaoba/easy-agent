@@ -1,0 +1,61 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+ENV/
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+*.sublime-workspace
+
+# ===== 环境变量与敏感配置 =====
+# .env 及所有 .env.* 一律忽略，仅保留 .env.example 作为配置模板
+.env
+.env.*
+!.env.example
+
+# ===== 日志 =====
+*.log
+
+# ===== 本地数据库 / 向量数据库 =====
+# ChromaDB 本地持久化数据
+chroma_db/
+*.db
+*.sqlite3
+
+# ===== 运行时生成数据 =====
+# 对话历史（本地 JSON 文件，按会话 ID 生成）
+chat_history/
+# 上传内容 MD5 去重记录（运行时状态）
+md5.text
+
+# ===== 模型文件 =====
+*.gguf
+*.bin
+*.onnx
+*.safetensors
+*.pth
+*.pt
+*.h5
+
+# ===== 个人笔记（不纳入版本管理） =====
+面试题总结.txt
+
+# ===== 临时文件 / 系统文件 =====
+*.tmp
+*.temp
+*.bak
+.DS_Store
+Thumbs.db
